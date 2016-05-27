@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleAppTest
 {
@@ -10,6 +6,12 @@ namespace ConsoleAppTest
     {
         static void Main(string[] args)
         {
+            // dispaly some text
+
+            Console.WriteLine(
+                "Howdy!");
+
+            Console.Read();// hold open to see it
         }
     }
 }
