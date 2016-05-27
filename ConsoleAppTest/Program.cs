@@ -7,11 +7,18 @@ namespace ConsoleAppTest
         static void Main(string[] args)
         {
             // dispaly some text
-
-            Console.WriteLine(
+            
+            PrintIt(
                 "Howdy!");
 
             Console.Read();// hold open to see it
+        }
+
+        static void PrintIt(string message)
+        {
+            if(!string.IsNullOrWhiteSpace(message))
+                Console.WriteLine(
+                    message);
         }
     }
 }
